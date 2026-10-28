@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{HTTP_HOST} ^intech.edu.ar$ [OR]
-  RewriteCond %{HTTP_HOST} ^www.intech.edu.ar$
-  RewriteRule (.*)$ https://sites.google.com/intech.edu.ar/info/home/$1 [R=301,L]
-</IfModule>
