@@ -1,7 +1,0 @@
-title: "Info - INTECH"
-url: "https://intech.edu.ar"
-baseurl: "/info"
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
